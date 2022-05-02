@@ -3,7 +3,10 @@
   import Header from '../components/Header.svelte'
 </script>
 
-<Header />
+<div class=" bg-yellow-400">
+  <Header />
+</div>
+
 <slot></slot>
 
 
