@@ -1,5 +1,6 @@
 <script>
   import {legos} from '../stores/legoStore';
+  import LegoCard from '../components/LegoCard.svelte';
 </script>
 
 <svelte:head>
@@ -8,13 +9,8 @@
 
 
 {#each $legos as lego }
-  <p>{lego.name}</p>
-  <p>{lego.legoId}</p>
+  <LegoCard lego={lego} />
 {/each}  
 
 
 
-
-<style>
-
-</style>

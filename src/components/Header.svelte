@@ -7,6 +7,7 @@
   <header class="container py-5 flex justify-between items-center">
     <h1 class="text-2xl md:text-4xl">Colin's Lego Tracker</h1>
 
+    <!-- MAIN NAV -->
     <div class="nav-wrapper absolute bg-yellow-400 inset-x-0 md:static" class:open={isNavOpen}>
       <nav class="container flex flex-col content-around gap-4 md:flex-row md:items-center">
         <a href="/" on:click={openNav}>Home</a>
@@ -14,10 +15,11 @@
       </nav>
     </div>
 
+    <!-- BURGER MENU -->
     <div class="w-10 flex flex-col justify-around items-center md:hidden" on:click={openNav}>
-      <div class="nav-bar top" class:move-top-bar={isNavOpen}></div>
-      <div class="nav-bar middle" class:opacity-0={isNavOpen}></div>
-      <div class="nav-bar botom" class:move-bottom-bar={isNavOpen}></div>
+      <div class="bg-slate-800 w-8 h-0.5 transition-all duration-200" class:move-top-bar={isNavOpen}></div>
+      <div class="bg-slate-800 w-8 h-0.5 my-1.5 transition-all duration-200" class:opacity-0={isNavOpen}></div>
+      <div class="bg-slate-800 w-8 h-0.5 transition-all duration-200" class:move-bottom-bar={isNavOpen}></div>
     </div>
 
   </header>
@@ -30,19 +32,6 @@
     transform-origin: top;
     transition: transform .3s ease-in-out;
   }
-
-  .nav-bar {
-    background-color: rgba(38, 38, 38, .8);
-    width: 2rem;
-    height: .125rem;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .middle {
-    margin: 0.35rem 0;
-  }
-
-
 
   @media (min-width: 768px) {
     .nav-wrapper {
@@ -61,10 +50,5 @@
   .move-bottom-bar {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-
-  /* .opacity-0 {
-    opacity: 0;
-  } */
 
 </style>
