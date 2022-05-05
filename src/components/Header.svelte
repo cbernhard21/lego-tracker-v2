@@ -1,8 +1,6 @@
 <script>
   let isNavOpen = false;
-
   const openNav = () => isNavOpen = !isNavOpen;
-
 </script>
 
 <div class="header-wrapper w-full bg-yellow-400 relative">
@@ -16,10 +14,10 @@
       </nav>
     </div>
 
-    <div class="w-10 h-6 flex flex-col justify-around items-center md:hidden" on:click={openNav}>
-      <div class="h-0.5 w-5/6 bg-neutral-800 rounded-md"></div>
-      <div class="h-0.5 w-5/6 bg-neutral-800 rounded-sm"></div>
-      <div class="h-0.5 w-5/6 bg-neutral-800 rounded-sm"></div>
+    <div class="w-10 flex flex-col justify-around items-center md:hidden" on:click={openNav}>
+      <div class="nav-bar top" class:move-top-bar={isNavOpen}></div>
+      <div class="nav-bar middle" class:opacity-0={isNavOpen}></div>
+      <div class="nav-bar botom" class:move-bottom-bar={isNavOpen}></div>
     </div>
 
   </header>
@@ -33,6 +31,19 @@
     transition: transform .3s ease-in-out;
   }
 
+  .nav-bar {
+    background-color: rgba(38, 38, 38, .8);
+    width: 2rem;
+    height: .125rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .middle {
+    margin: 0.35rem 0;
+  }
+
+
+
   @media (min-width: 768px) {
     .nav-wrapper {
       transform: scale(1,1);
@@ -42,5 +53,18 @@
   .open {
     transform: scale(1, 1);
   }
+
+  .move-top-bar{
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .move-bottom-bar {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+  /* .opacity-0 {
+    opacity: 0;
+  } */
 
 </style>
