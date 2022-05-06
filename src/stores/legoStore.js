@@ -12,7 +12,11 @@ async function fetchLego() {
       name: lego.name,
       legoId: lego.legoId,
       id: index + 1,
-      image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon${index + 1}.png`,
+      // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon${index + 1}.png`,
+      image: `/images/${lego.image}`,
+      instructions: lego.instructionsLink,
+      category: lego.category,
+      id: lego.id,
     };
   });
   legos.set(loadedLegos);
