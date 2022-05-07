@@ -1,0 +1,310 @@
+{
+    "legos": [
+        {
+            "legoId": 71396,
+            "name": "Bowser Jr.'s Clown Car Expansion Set",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.additional.main.pdf/71396_01_BI_Build_Main.pdf",
+            "image": "bowser-jr-clown-car.png",
+            "category": "Super Mario",
+            "id": 2
+        },
+        {
+            "legoId": 71399,
+            "name": "Luigi's Manison Entryway Expansion Set",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.additional.main.pdf/71399_01_BI_Build_Main.pdf",
+            "image": "luigi-manison.png",
+            "category": "Super Mario",
+            "id": 3
+        },
+        {
+            "legoId": 10769,
+            "name": "Toy Story 4 RV Vacation",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6278789.pdf",
+            "image": "toy-story-rv.png",
+            "category": "Disney",
+            "id": 4
+        },
+        {
+            "legoId": 75270,
+            "name": "Obi-Wan's Hut",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6310738.pdf",
+            "image": "obi-wan-hut.png",
+            "category": "Star Wars",
+            "id": 5
+        },
+        {
+            "legoId": 75259,
+            "name": "Snowspeeder - 20th Anniversary Edition",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6278629.pdf",
+            "image": "snowspeeder.png",
+            "category": "Star Wars",
+            "id": 6
+        },
+        {
+            "legoId": 75284,
+            "name": "Knights of Ren Transport Ship",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6330121.pdf",
+            "image": "knights-of-ren.png",
+            "category": "Star Wars",
+            "id": 7
+        },
+        {
+            "legoId": 75265,
+            "name": "T-16 Skyhopper vs Bantha",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6310776.pdf, ",
+            "image": "t-16-vs-bantha.png",
+            "category": "Star Wars",
+            "id": 8
+        },
+        {
+            "legoId": 75193,
+            "name": "Millennium Falcon, Microfights",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6221357.pdf",
+            "image": "millennium-falcon.png",
+            "category": "Star Wars",
+            "id": 9
+        },
+        {
+            "legoId": 75194,
+            "name": "First Order TIE Fighter, Microfights",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6221362.pdf",
+            "image": "tiefighter.png",
+            "category": "Star Wars",
+            "id": 10
+        },
+        {
+            "legoId": 75926,
+            "name": "Pteranodon Chase",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6263145.pdf",
+            "image": "pteranodon-chase.png",
+            "category": "Dinosaur",
+            "id": 11
+        },
+        {
+            "legoId": 10758,
+            "name": "T Rex Breakout",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6238348.pdf",
+            "image": "trex-breakout.png",
+            "category": "Dinosaur",
+            "id": 12
+        },
+        {
+            "legoId": 10756,
+            "name": "Pterandon Escape",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6238342.pdf",
+            "image": "pterandon-escape.png",
+            "category": "Dinosaur",
+            "id": 13
+        },
+        {
+            "legoId": 10757,
+            "name": "Raptor Rescue Truck",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6238345.pdf",
+            "image": "raptor-rescue-truck.png",
+            "category": "Dinosaur",
+            "id": 14
+        },
+        {
+            "legoId": 10759,
+            "name": "Elastigirl's Rooftop Pursuit",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6238351.pdf",
+            "image": "elastigirl.png",
+            "category": "Disney",
+            "id": 15
+        },
+        {
+            "legoId": 21167,
+            "name": "The Trading Post",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6352107.pdf",
+            "image": "trading-post.png",
+            "category": "Minecraft",
+            "id": 16
+        },
+        {
+            "legoId": 43184,
+            "name": "Raya and Sisu Dragon",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6354207.pdf",
+            "image": "raya-and-sisu.png",
+            "category": "Disney",
+            "id": 17
+        },
+        {
+            "legoId": 41165,
+            "name": "Anna's Canoe Expedition",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6296614.pdf",
+            "image": "anna-canoe.png",
+            "category": "Disney",
+            "id": 18
+        },
+        {
+            "legoId": 41169,
+            "name": "Olaf",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6296612.pdf",
+            "image": "olaf.png",
+            "category": "Disney",
+            "id": 19
+        },
+        {
+            "legoId": 60150,
+            "name": "Pizza Van",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6186255.pdf",
+            "image": "pizza-van.png",
+            "category": "City",
+            "id": 20
+        },
+        {
+            "legoId": 60267,
+            "name": "Safari Off-Roader",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6305310.pdf",
+            "image": "safari-off-roader.png",
+            "category": "City",
+            "id": 21
+        },
+        {
+            "legoId": 60225,
+            "name": "Rover Testing Drive",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/60225",
+            "image": "rover-testing-drive.png",
+            "category": "City",
+            "id": 22
+        },
+        {
+            "legoId": 60226,
+            "name": "Mars Research Shuttle",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/60226",
+            "image": "mars-shuttle.png",
+            "category": "City",
+            "id": 23
+        },
+        {
+            "legoId": 60273,
+            "name": "Police Driller Chase",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/60273",
+            "image": "police-driller-chase.png",
+            "category": "City",
+            "id": 24
+        },
+        {
+            "legoId": 60180,
+            "name": "Monster Truck",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6262204.pdf",
+            "image": "monster-truck.png",
+            "category": "City",
+            "id": 25
+        },
+        {
+            "legoId": 31073,
+            "name": "Mythical Creatues",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31073",
+            "image": "mythical-creatues-1.png",
+            "category": "3-1 Creator",
+            "id": 26
+        },
+        {
+            "legoId": 31090,
+            "name": "Underwater Robot",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31090",
+            "image": "underwater-robot.png",
+            "category": "3-1 Creator",
+            "id": 27
+        },
+        {
+            "legoId": 31102,
+            "name": "Fire Dragon",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31102",
+            "image": "fire-dragon-1.png",
+            "category": "3-1 Creator",
+            "id": 28
+        },
+        {
+            "legoId": 31099,
+            "name": "Propeller Plane",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31099",
+            "image": "propeller-plane-1.png",
+            "category": "3-1 Creator",
+            "id": 29
+        },
+        {
+            "legoId": 31088,
+            "name": "Deep Sea Creatures",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31088",
+            "image": "deep-sea-creatures.png",
+            "category": "3-1 Creator",
+            "id": 30
+        },
+        {
+            "legoId": 31095,
+            "name": "Fairground Carousel",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6281939.pdf",
+            "image": "fairground-carousel.png",
+            "category": "3-1 Creator",
+            "id": 31
+        },
+        {
+            "legoId": 31093,
+            "name": "Riverside Houseboat",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6269848.pdf",
+            "image": "houseboat.png",
+            "category": "3-1 Creator",
+            "id": 32
+        },
+        {
+            "legoId": 30578,
+            "name": "Dog",
+            "description": "",
+            "instructionsLink": "",
+            "image": "",
+            "category": "3-1 Creator",
+            "id": 33
+        },
+        {
+            "legoId": 31079,
+            "name": "Sunshine Surfer Van",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31079",
+            "image": "sunshine-surfer.png",
+            "category": "3-1 Creator",
+            "id": 34
+        },
+        {
+            "legoId": 31058,
+            "name": "Mighty Dinosaurs",
+            "description": "",
+            "instructionsLink": "https://www.lego.com/en-us/service/buildinginstructions/31058",
+            "image": "mighty-dinosaurs.png",
+            "category": "3-1 Creator",
+            "id": 35
+        }
+    ]
+}

@@ -1,9 +1,14 @@
-<script context="module">
-  const url = `https://api.sheety.co/76ad47b2d5b6382b8a64c0ad92494661/legoProject/legos`;
+<!-- uncomment this section when ready to launch -->
+
+<!-- <script context="module">
+  // const url = `https://api.sheety.co/76ad47b2d5b6382b8a64c0ad92494661/legoProject/legos`;
+  // const url = `../test.json`;
 
   export async function load({fetch}) {
-    const res = await fetch(url);
+
+    const res = await fetch('test.json');
     const data = await res.json();
+    console.log(data)
     return {
       props: {
         legos: data.legos
@@ -11,14 +16,17 @@
     }
   }
 
-</script>
+</script> -->
 
 <script>
   // import {legos} from '../stores/legoStore';
+  import json from '../db/db.json'; //get rid of this
   import LegoCard from '../components/LegoCard.svelte';
-  export let legos;
+
+  export let legos = json.legos //change this to just legos
 
   let categories = [];
+
   legos.forEach(lego => {
     if(categories.includes(lego.category)){
       return
@@ -28,12 +36,16 @@
   });
 
   let searchValue = '';
+  let searchedCategoryValue = ''
   $: searchedLegos = legos.filter((lego) => {
     return lego.name.toLowerCase().includes(searchValue.toLowerCase()) || lego.category.toLowerCase().includes(searchValue.toLowerCase());
-  })
+  });
 
- 
-</script>
+  $: searchedCategories = categories.filter((category) => {
+    return category.toLowerCase().includes(searchValue.toLowerCase());
+  });
+
+ </script>
 
 <svelte:head>
   <title>Lego Tracker</title>
@@ -44,7 +56,7 @@
   <input type="text" id="lego-search" bind:value={searchValue}>
 </form>
 
-{#each categories as category}
+{#each searchedCategories as category}
   <div class="main-grid-container mb-8">
     <h2 class="col-span-full text-2xl font-semibold">{category}</h2>
     {#each searchedLegos as lego}
