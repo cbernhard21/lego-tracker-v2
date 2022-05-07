@@ -5,7 +5,7 @@
 
 <div class="header-wrapper w-full bg-yellow-400 relative">
   <header class="container py-5 flex justify-between items-center">
-    <h1 class="text-2xl md:text-4xl">Colin's Lego Tracker</h1>
+    <h1 class="text-3xl md:text-4xl">Colin's Lego Tracker</h1>
 
     <!-- MAIN NAV -->
     <div class="nav-wrapper absolute bg-yellow-400 inset-x-0 md:static" class:open={isNavOpen}>
