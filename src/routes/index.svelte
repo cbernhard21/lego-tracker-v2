@@ -36,14 +36,16 @@
   });
 
   let searchValue = '';
-  let searchedCategoryValue = ''
+
+  //search by individaul lego
   $: searchedLegos = legos.filter((lego) => {
     return lego.name.toLowerCase().includes(searchValue.toLowerCase()) || lego.category.toLowerCase().includes(searchValue.toLowerCase());
   });
 
+  //search by category
   $: searchedCategories = categories.filter((category) => {
-    return category.toLowerCase().includes(searchValue.toLowerCase());
-  });
+      return category.toLowerCase().includes(searchValue.toLowerCase());
+    });
 
  </script>
 
@@ -51,15 +53,15 @@
   <title>Lego Tracker</title>
 </svelte:head>
 
-<form class="search">
-  <label for="lego-search">Find Lego</label>
-  <input type="text" id="lego-search" bind:value={searchValue}>
+<form class="search w-full border flex mt-4 rounded-lg overflow-hidden md:w-3/4">
+  <label for="lego-search" class="self-center p-4 bg-yellow-200">Search By Category</label>
+  <input type="text" id="lego-search" class="grow p-2" placeholder="ex. Star Wars" bind:value={searchValue}>
 </form>
 
 {#each searchedCategories as category}
   <div class="main-grid-container mb-8">
     <h2 class="col-span-full text-2xl font-semibold">{category}</h2>
-    {#each searchedLegos as lego}
+    {#each legos as lego}
       {#if lego.category.includes(category)}
         <LegoCard lego={lego} />
       {/if}
