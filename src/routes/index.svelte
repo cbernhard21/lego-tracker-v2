@@ -54,8 +54,8 @@
 </svelte:head>
 
 <form class="search w-full border flex mt-4 rounded-lg overflow-hidden md:w-3/4">
-  <label for="lego-search" class="self-center p-4 bg-yellow-200">Search By Category</label>
-  <input type="text" id="lego-search" class="grow p-2" placeholder="ex. Star Wars" bind:value={searchValue}>
+  <label for="lego-search" class="text-xs self-center p-2 bg-yellow-200 md:text-base md:p-4">Search By Category</label>
+  <input type="text" id="lego-search" class="text-xs grow p-2 md:p-4 md:text-base" placeholder="ex. Star Wars" bind:value={searchValue}>
 </form>
 
 {#each searchedCategories as category}

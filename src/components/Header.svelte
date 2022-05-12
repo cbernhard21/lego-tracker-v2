@@ -1,6 +1,15 @@
 <script>
+import Login from '../routes/login.svelte';
+
   let isNavOpen = false;
+
+  let isLoggedIn = true;
+
   const openNav = () => isNavOpen = !isNavOpen;
+
+  const logOut = () => isLoggedIn = !isLoggedIn;
+
+
 </script>
 
 <div class="header-wrapper w-full bg-yellow-300 relative">
@@ -11,7 +20,14 @@
     <div class="nav-wrapper absolute bg-yellow-300 inset-x-0 md:static" class:open={isNavOpen}>
       <nav class="container flex flex-col content-around gap-4 md:flex-row md:items-center">
         <a href="/" on:click={openNav}>Home</a>
-        <a href="/login" class="pb-5 md:pb-0" on:click={openNav}>Login</a>
+        <a href="/login" class="pb-5 md:pb-0" on:click={openNav}>
+          {#if !isLoggedIn}
+            Login
+          {:else}
+          <span on:click={logOut}>Log Out</span>
+          {/if}
+          
+        </a>
       </nav>
     </div>
 
